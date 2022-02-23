@@ -1,7 +1,7 @@
 Allows you to output player data for all source dedicated servers for any source game in a format similar to exampledata.txt
 
 Issues:
-For some reason, it duplicates servers when you query for like 10+ servers. I haven't implemented a fix for this so until I do, you have to run serverlist.py, use some form of text dedupe (ie sort -u ) then continue onto running servercheck.py
+For some reason, it duplicates servers when you query for like 10+ servers (this might only be for gmod). I haven't implemented a fix for this so until I do, you have to run serverlist.py, use some form of text dedupe (ie sort -u ) then continue onto running servercheck.py
 
 Todo:
 Script to loop and check for player name
